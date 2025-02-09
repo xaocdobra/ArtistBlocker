@@ -13,12 +13,12 @@ namespace ArtistBlocker.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult SelectStreaming() 
         {
             return View();
         }
